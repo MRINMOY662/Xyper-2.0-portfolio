@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/MRINMOY662')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -107,7 +107,7 @@ const Footer = () => {
       <StyledCredit tabindex="-1">
         <a href="https://github.com/bchiang7/v4">
           <div>Designed &amp; Built by Brittany Chiang <br></br>
-            Revised by Mrinmoy Deka
+            <a href="https://github.com/MRINMOY662/">Revised by Mrinmoy Deka </a><br />
           </div>
 
           {githubInfo.stars && githubInfo.forks && (
@@ -123,6 +123,8 @@ const Footer = () => {
             </div>
           )}
         </a>
+        <p> <span>This website is in developement stage,<br />
+          many features get updated to this weebsite.</span></p>
       </StyledCredit>
     </StyledFooter>
   );
