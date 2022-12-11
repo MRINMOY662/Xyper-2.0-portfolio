@@ -124,7 +124,7 @@ const Footer = () => {
           )}
         </a>
         <p> <span>This website is in developement stage,<br />
-          many features get updated to this weebsite.</span></p>
+          many features get updated to this website.</span></p>
       </StyledCredit>
     </StyledFooter>
   );
